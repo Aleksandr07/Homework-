@@ -12,4 +12,4 @@ proiz = a*b;
 chast = a/b;
 printf("Сумма = %.2f, разность = %.2f, произведение = %.2f, частное = %.2f. \n", sum, raz, proiz, chast);
 return 0;
-}
+} 

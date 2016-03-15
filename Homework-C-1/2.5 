@@ -1,9 +1,0 @@
-00000000004004ed <main>:
-  4004ed:	55                   	push   %rbp
-  4004ee:	48 89 e5             	mov    %rsp,%rbp
-  4004f1:	b8 00 00 00 00       	mov    $0x0,%eax
-  4004f6:	5d                   	pop    %rbp
-  4004f7:	c3                   	retq   
-  4004f8:	0f 1f 84 00 00 00 00 	nopl   0x0(%rax,%rax,1)
-  4004ff:	00 
-

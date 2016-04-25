@@ -1,0 +1,17 @@
+JMP start
+write:
+     DB "07/04"
+     DB 0
+start:
+     mov C, write 
+     mov D, 232
+cicle:
+     mov A, [C]
+     mov [D], A
+     inc C
+     inc D
+     cmp B, [C]         
+     JNZ cicle
+HLT
+
+

@@ -7,4 +7,5 @@ int main()
   scanf("%s", name);
   printf("Размер введенной строки %zd байт\n", strlen(name)+1);
 return 0;
+
 }

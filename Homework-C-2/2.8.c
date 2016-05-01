@@ -14,4 +14,5 @@ sin=alpha-(alpha*alpha*alpha/6)+(alpha*alpha*alpha*alpha*alpha/120)-(alpha*alpha
 t=2*v*sin/g;
 printf("Время полета=%.2f\n", t);
 return 0;
+
 } 

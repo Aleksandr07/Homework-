@@ -12,4 +12,5 @@ printf(" 5. |  P |  Q |  R |  S |  T |  U |  V |  W |  X |  Y |  Z |  [ | \\ |  
 printf(" 6. |  ` |  a |  b |  c |  d |  e |  f |  g |  h |  i |  j |  k |  l |  m |  n |  o |\n");
 printf(" 7. |  p |  q |  r |  s |  t |  u |  v |  w |  x |  y |  z |  { |  | |  } |  ~ | DEL|\n");
 return 0;
+
 }

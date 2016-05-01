@@ -11,4 +11,5 @@ int main()
     name[i]=name[i]-32;
   printf("Полученная строка:\n%s\n", name);
 return 0;
+
 }

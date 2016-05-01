@@ -11,4 +11,5 @@
 {x=(a*x+c)%m;
  printf("%d ", x);}
 return 0;
+
 }

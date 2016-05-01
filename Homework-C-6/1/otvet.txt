@@ -1,0 +1,6 @@
+Количество уникальных слов:
+  proverka               3
+  zadaniya               2
+   zadanie               1
+informatike               1
+        po               1

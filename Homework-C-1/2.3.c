@@ -10,4 +10,5 @@ int main()
 	day=day-month;
 	printf("day=%d, month=%d \n", day, month);
 	return 0;
+
 }

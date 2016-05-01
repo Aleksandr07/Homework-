@@ -18,5 +18,6 @@ for(i=1; i<n; i++)
   }
 printf("%s\n", del);
 return 0;
+
 }
 

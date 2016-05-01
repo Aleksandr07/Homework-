@@ -13,4 +13,5 @@ for(i=0; i<zero; i++)
 printf(" ");
 printf("]");
 return 0;
+
 }

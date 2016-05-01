@@ -15,4 +15,5 @@ b=b-a;
 }
 printf("НОД чисел=%d\n", a);
 return 0;
+
 }

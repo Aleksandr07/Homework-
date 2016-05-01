@@ -23,5 +23,6 @@ case '%': result=a/b*100;
 }
 printf("=%.2f\n", result);
 return 0;
+
 }
 

@@ -16,4 +16,5 @@ if(name[num]>a)
 }
 printf("Наибольший ASCII код у символа %c\n", a);
 return 0;
+
 }

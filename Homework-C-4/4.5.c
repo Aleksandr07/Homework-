@@ -23,5 +23,6 @@ res=x/xi;
 resi=y/xi;
 printf("R=%f+%fi\n", res, resi);
 return 0;
+
 }
 

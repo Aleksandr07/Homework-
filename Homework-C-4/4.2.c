@@ -26,5 +26,6 @@ case '%': assert(b!=0);
 }
 printf("=%.2f\n", result);
 return 0;
+
 }
 

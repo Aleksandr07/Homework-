@@ -1,0 +1,111 @@
+jmp start
+
+start:
+mov A, 3
+cmp A, 3
+ja oshib
+push A
+call output
+pop A
+call func
+call max
+call konec
+
+oshib:
+call error
+hello: DB "error"
+       DB 0
+error:
+mov C, hello
+mov D, 232
+mov B, 0
+error1:
+mov A, [C]
+mov [D], A
+inc C
+inc D
+cmp B, [C]
+jnz error1
+
+konec:
+hlt
+
+output:
+
+mov D, 236
+add A, 48
+mov [232], A
+cmp A, 48
+jnz next
+add A, 1
+
+next:
+mov [233], 33
+mov [234], 61
+mov [235], A
+
+circle:
+cmp A, 49
+jz aa
+sub A, 1
+mov [D], 42
+inc D
+mov [D], A
+inc D
+jmp circle
+
+aa:
+mov [D], 61
+ret
+
+func:
+cmp A, 0
+jnz func1
+add A, 1
+
+func1:
+cmp A, 1
+jz func3
+push A
+sub A, 1
+mov B, A
+pop A
+
+func2:
+mul B
+sub B, 1
+cmp B, 0
+jnz func2
+
+func3:
+push A
+pop A
+
+ret
+
+max:
+push A
+div 100
+mov D, 232
+cmp A, 0
+jz output2
+
+output2:
+mul 100
+mov B, A
+pop A
+sub A, B
+push A
+div 10
+add A, 48
+mov [D], A
+inc D
+sub A, 48
+mul 10
+mov B, A
+pop A
+sub A, B
+add A, 48
+mov [D], A
+
+ret

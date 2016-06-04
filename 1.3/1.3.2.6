@@ -1,0 +1,29 @@
+mov A, 3
+call func
+hlt
+
+func:
+cmp A, 0
+jnz func1
+add A, 1
+
+func1:
+cmp A, 1
+jz func3
+push A
+sub A, 1
+mov B, A
+pop A
+
+func2:
+mul B
+sub B, 1
+cmp B, 0
+jnz func2
+
+func3:
+push A
+pop A
+
+ret
+

@@ -1,0 +1,32 @@
+mov A, 40
+
+
+call output
+hlt
+
+output:
+push A
+div 100
+mov D, 232
+cmp A, 0
+jz output2
+
+output2:
+mul 100
+mov B, A
+pop A
+sub A, B
+push A
+div 10
+add A, 48
+mov [D], A
+inc D
+sub A, 48
+mul 10
+mov B, A
+pop A
+sub A, B
+add A, 48
+mov [D], A
+
+ret
